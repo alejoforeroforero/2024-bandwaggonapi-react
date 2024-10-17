@@ -1,0 +1,12 @@
+.container{
+    height: calc(100vh - 60px);
+}
+
+.logo-session{
+    margin-top: 6vh;
+    text-align: center;
+
+    img{
+        margin-bottom: 40px;
+    }
+}
