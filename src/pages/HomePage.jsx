@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import UserInfo from "@/components/UserInfo";
+import UserInfo from "../components/userInfo";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
