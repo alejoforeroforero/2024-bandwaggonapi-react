@@ -4,7 +4,7 @@ import { getUserInfo } from "@/redux/states/authActions";
 import { authUser } from "@/redux/states/authSlice";
 import { Outlet } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import NavBar from "./components/NavBar";
+import NavBar from "@/components/NavBar/NavBar";
 
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -34,7 +34,7 @@ function App() {
     <>
       <ToastContainer />
       <NavBar />
-      <div className="container">
+      <div>
         <Outlet />
       </div>
     </>
